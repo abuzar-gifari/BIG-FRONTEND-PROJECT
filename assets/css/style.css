@@ -89,9 +89,6 @@ a{
 
 
 
-
-
-
 .section-title{
     position: relative;
     margin-bottom: 80px;
@@ -149,7 +146,6 @@ a{
     background-color: #635CDB;
     left:0;
     bottom: 0;
-
 }
 
 .single-about{
@@ -805,4 +801,26 @@ pd-10{
 
 .btn_design a:hover{
     color: #635CDB;
+}
+
+@media screen and (max-width: 800px){
+    .text-middle{
+        text-align: center;
+    }
+    .btn_design{
+        margin-bottom: 20px;
+    }
+    .section-title:after{
+        visibility: hidden;
+    }
+
+    .section-title:before{
+        visibility: hidden;
+    }
+    .pb-100{
+        padding-bottom: 40px;
+    }
+    .pt-100{
+        padding-top: 40px;
+    }
 }
