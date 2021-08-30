@@ -807,6 +807,10 @@ pd-10{
     .text-middle{
         text-align: center;
     }
+    .rsp{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
     .btn_design{
         margin-bottom: 20px;
     }
@@ -823,4 +827,5 @@ pd-10{
     .pt-100{
         padding-top: 40px;
     }
+
 }
